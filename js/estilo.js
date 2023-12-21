@@ -12,7 +12,7 @@ const productos = [
   }
   
   // Obtener la selección del usuario
-  const seleccion = prompt('Ingrese el número del producto seleccionado:');
+  const seleccion = prompt('Ingrese un número del 1 a 3 de los producto seleccionado:');
   
   // Verificar si la selección es válida
   if (seleccion >= 1 && seleccion <= productos.length) {
